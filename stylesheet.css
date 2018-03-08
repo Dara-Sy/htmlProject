@@ -1,0 +1,360 @@
+
+
+nav{
+	text-decoration: none;
+	color: white;
+	margin: 0px;
+    padding: 0px;
+	position: fixed;
+	margin-top: -20px;
+	right: 0px;
+	/*left: -10px;
+	right: 400px;*/
+	width: 100%;
+	height: 20px;
+	z-index: 2;
+	background-color: black;
+	display: inline;
+	/*top: 50px;*/
+
+}
+
+{ box-sizing: border-box;
+}
+
+
+/* Responsive Tablet Sizes */
+/*@media only screen and (max-width: 400px) {
+  nav {
+  	float: none;
+  	display: block;
+  	text-align: left;
+  }*/
+
+
+ul{
+	list-style-type: none;
+	background-color: black;
+	color: white;
+
+
+
+}
+
+
+li{ 
+	position: relative;
+	top: 30px;
+	text-decoration: none;
+	color: white;
+	float: right;
+	padding: 0px;
+	margin-top: 15px;
+	font-family: Arial;
+	font-size: 15px;
+	margin-right: 50px;
+	margin-left: 10px;
+	margin-bottom:20px;
+	display: inline;
+	transition: bold 2s;
+
+
+}
+
+li a{text-decoration: none;
+	color: white;
+	display: inline;
+
+}
+
+li:hover a{
+	color: #B6C6F8;
+	font-weight: bold;
+	font-style: italic;
+
+
+}
+
+a:visited{
+	color:white;
+}
+
+.lit{
+	margin: 0px;
+  	padding: 0px;
+	overflow: hidden;
+	/*background-image: url(images/lit.jpg);*/
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100%;
+	background-size: cover;
+	/*height: 800px;*/
+	right: -5px;
+	left: 0px;
+
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    right: 0px;
+
+}
+
+
+h1{
+	font-family: 'Roboto', Arial, sans-serif;
+}
+
+
+
+.image1{
+	float: left;
+	position: relative;
+	left: 40px;
+	/*width: 700px;
+	height: 470px;*/
+	top: 150px;
+	/*z-index: 1;*/
+	float: left;
+	font-family: Arial;
+	font-size: 14px;
+	right: 40px;
+}
+
+img {
+
+	/*float: left;*/
+	margin-right: 20px;
+	right: 0px;
+	left: -10px;
+
+}
+
+/*p {
+	float: left;
+}*/
+
+.box{
+	float: left;
+	border: 1px;
+	width: 500px;
+	left:70px;
+
+}
+
+.aboutSection{
+	position: relative;
+	left: 25%;
+	top: 160px;
+}
+
+
+
+/*.flex-container{
+	display: flex;
+	flex-wrap: wrap;
+
+}
+
+.flex-container > div{
+	text-align: center;
+}*/
+
+.vidGallery{
+	position: absolute;
+	top: 1510px;
+	left: 20px;
+
+}
+
+
+.video{
+	position: relative;
+	border: 5px solid black;
+	width: 380px;
+	height: 430px;
+	float: left;
+	margin: 10px;
+	left: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+.desc {
+	text-align: center;
+
+}
+
+
+
+
+/*.button {
+    position: absolute;
+    top: 700px;
+    left: 0px;
+    height: 379px;
+    width:600px;
+    vertical-align: top;
+    background-repeat: no-repeat;
+    z-index: 1;
+}
+
+
+.centered {
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.0vw; 
+  z-index: 1;
+}*/
+
+/*#contactSpace{
+	top:4300px;
+}*/
+
+
+
+.contactSection{
+	position: absolute;
+	top: 4650px;
+	width: 100%;
+	height: 100%;
+	right: 0px;
+	background-image: url(images/gtar1.jpg);
+	background-color: #ED8605;
+}
+
+h1{
+	font-family: Arial;
+	font-size: 20px;
+}
+
+
+
+
+#contact{
+	position: absolute;
+	/*top: 4000px;*/
+	left:60px;
+	background-color: black;
+	color: white;
+	top: 150px;
+	width: 600px;
+	height: 320px;
+	font-family: Arial;
+	font-size: 13px;
+	/*z-index: 1;*/
+
+	/*display: flex;
+	justify-content: center;*/
+}
+
+.contactpic {
+	position: absolute;
+	top: -138px;
+	left: 50%;
+	text-align: center;
+	/*z-index: 1;*/
+
+}
+
+
+#footer {
+	position: absolute;
+	margin: 0px;
+	padding: 0px;
+	bottom: 0px;
+	top: 5300px;
+	width: 100%;
+	height: 400px;
+	background-color: black;
+	/*background-image: url(images/piano.jpg);*/
+	background: cover;
+	color: white;
+	text-align: center;
+	display:block;
+	margin:bottom:-10px;
+
+	
+}
+
+
+.thankYou {
+	position: relative;
+	top: 300px;
+	z-index: 1;
+}
+
+.piano {
+	position: relative;
+	top: 0px;
+	width: 100%;
+}
+
+.footContainer {
+	position: absolute;
+	top: -300px;
+
+}
+
+
+
+
+/* Responsive Tablet Sizes */
+@media only screen and (max-width: 749px) {
+  #footer {
+      flex-wrap:wrap;
+        max-width:250px;
+        width:50%
+      }
+      /*.footer-contact {
+        width:50%;
+        padding:0 20px;
+      }*/
+      nav {
+        width:100%;
+          padding:0 20px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+/* Responsive Tablet Sizes */
+/*@media only screen and (max-width: 600px) {
+  footer {
+    .centered {
+      flex-wrap:wrap;
+      .footer-logo {
+        max-width:250px;
+        width:50%
+      }
+      .footer-contact {
+        width:50%;
+        padding:0 20px;
+      }
+      .footer-navigation {
+        width:100%;
+        .footer-links-holder {
+          padding:0 20px;
+        }
+      }
+    }
+  }
+}
+*/
+
+
+
+
+  
