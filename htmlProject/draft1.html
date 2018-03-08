@@ -1,0 +1,729 @@
+<!DOCTYPE html> 
+
+<html>
+
+
+	<head> 
+
+		<!-- links to the stylesheet for CSS properties -->
+
+		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+
+		<!-- <link rel"javascript" type="text/javascript" href="script.js"> -->
+
+
+		
+
+		<!-- SMOOTH SCROLL -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
+
+
+
+
+
+
+
+
+
+		<!-- sample 2 -->
+
+
+		<script>
+		// // Select all links with hashes
+		// $('a[href*="#"]')
+		//   // Remove links that don't actually link to anything
+		//   .not('[href="#"]')
+		//   .not('[href="#0"]')
+		//   .click(function(event) {
+		//     // On-page links
+		//     if (
+		//       location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') 
+		//       && 
+		//       location.hostname == this.hostname
+		//     ) {
+		//       // Figure out element to scroll to
+		//       var target = $(this.hash);
+		//       target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+		//       // Does a scroll target exist?
+		//       if (target.length) {
+		//         // Only prevent default if animation is actually gonna happen
+		//         event.preventDefault();
+		//         $('html, body').animate({
+		//           scrollTop: target.offset().top
+		//         }, 1000, function() {
+		//           // Callback after animation
+		//           // Must change focus!
+		//           var $target = $(target);
+		//           $target.focus();
+		//           if ($target.is(":focus")) { // Checking if the target was focused
+		//             return false;
+		//           } else {
+		//             $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+		//             $target.focus(); // Set focus again
+		//           };
+		//         });
+		//       }
+		//     }
+		//   });
+
+</script>
+
+
+
+
+
+
+<!-- sample 3 -->
+
+
+		<!-- for scrolling js starts here -->
+<!-- 
+		<script>$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+}); </script>
+ -->
+		<!-- for scrolling js ends here -->
+
+
+		
+
+		</style> 
+
+
+			<!-- this is the contact code that will pop up -->
+
+		
+
+	</head>
+
+	<!-- adding the meta viewport so that there is an HTML responsive and can be viewed on multiple devices -->
+
+	
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+	<body> 
+
+
+		<nav>
+
+			<!-- <div class = "logo"> 
+
+				<img src="images/logo1.jpg" width="300" height="150">
+
+			</div>  -->
+
+			<ul> 
+
+				<a href = "file:///Users/acetip/Desktop/HTML%20Project%201/draft1.html" > <img src="images/logo1.jpg" width="220" height="110"> </a> 
+				<li> <a href = "https://ukulelepoetry.wordpress.com/category/poetry/" target = "_blank">Poetry </a> </li>
+				<li> <a href = "https://www.youtube.com/channel/UCVdk4I9RVnZ63-Jo7jSu60Q?view_as=subscriber" target = "_blank"> Youtube </a> </li>
+				<li> <a href = "https://www.instagram.com/darajanemusic/" target = "_blank"> Instagram </a> </li>
+				<li> <a href = "https://soundcloud.com/dara-jane" target="_blank"> SoundCloud </a> </li>
+				<li> <a href = "#contact"> Contact </a> </li>
+				<li> <a href = "#about"> About </a> </li>
+
+
+			</ul>
+
+		</nav>	
+
+
+		<!-- <section> -->
+
+
+
+		<div class = "lit">
+
+			<!-- lit picture goes here -->
+
+			<img src = "images/lit.jpg" width="100%" height="100%">
+
+			<!-- <img src = "images/lit.jpg"> -->
+
+		</div>
+			<div id="about">
+
+				<div class = "image1">
+
+					<div class = "pearlwedding">
+
+					<p> <img src = "images/guitar.jpg" width="570" height="370"> </div>
+
+				</div> 
+
+						<div class = "box"> 
+
+							<div class = "aboutSection"> 
+
+
+							<center>
+
+								<img src = "images/about1.jpg" > <br>
+
+							
+
+									<h1> Welcome! </h1>
+
+							Hi! My name is Dara Jane. I love writing songs and singing harmonies for fun. We live in one diverse, small world, as people we can all connect through the gift of music. This is my journey and love for music. Feel free to browse through my covers. </p>
+
+							</center>
+
+						</div> <!-- closes about Section  -->
+
+					<!-- <img src = "https://i.ytimg.com/vi/SfLV8hD7zX4/maxresdefault.jpg"> -->
+
+						</div> <!-- closes box -->
+
+
+				</div> <!-- closes About -->
+
+
+
+
+<!-- 		</section> -->
+
+
+
+	<div class = "vidGallery"> 
+
+		<!-- <div class = "flex-container"> -->
+
+		<!-- this is a div to only show 3 videos for web responsiveness -->
+
+		<div class = "onlyThreeVideos"> 
+
+			<center> <img src = "images/gallery.jpg"> </center> <br> <br> <br>
+
+			<div class = "onlyThreeVideos"> 
+
+			<!-- <h1> Video Gallery </h1> -->
+
+			<div class = "video"> 
+
+				<iframe width="380" height="300" src="https://www.youtube.com/embed/1AGNZ-a8_cM?start=30" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+				<div class = "desc">
+					<h2> Love Yourself / Where is the Love Mashup </h2>
+					<p> Jam session with my music best friend! </p>
+
+
+				</div> <!-- closes desc -->
+
+			</div> <!-- closes video -->
+
+
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/bF4ey6VCmRE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Thank You - Onesie Band </h2>
+				<p> Thanksgiving performance at Queens College </p>
+
+
+			</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/DNdeW3vdlWw?start=158" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Ever Be / What a Beautiful Name Mashup </h2>
+				<p> Mashups & harmonies are the best! </p>
+
+
+			</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+	</div> <!-- closes Only Three Videos -->
+
+
+	<div class = "theRestOfThem">
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/bfHX_z7zCzc?start=170" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Prince of Peace </h2>
+				<p> Poetry Night in St. Alban's</p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/yUd6DiwqCck?start=22" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Ever Be </h2>
+				<p> Sunday evening at New Hope </p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/g78IpcHDhsU?start=134" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+
+			<div class = "desc">
+				<h2> Not the Only One </h2>
+				<p> Jamming with friends is one of life's blessings </p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/UrPT9BlLjKQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Medicine </h2>
+				<p> I dedicate this to the 17 fallen in Marjory Stoneman Douglas High School</p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/ttam6pypYLk?start=43" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> We Found Love </h2>
+				<p> Acoustic remix of Rihanna's song</p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/cX-ejPzgzXg" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Jesus Paid It All </h2>
+				<p> Hymns never get old </p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/Kjd0RKPuMZ8?start=238" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> A Prayer For You (Original)</h2>
+				<p> Performance at FLIGHT to the Stars '15 </p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/5DhSmmLSdUs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Valentine </h2>
+				<p> An oldie but good(ie) song! </p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/Qn_n-GLyXr8" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Prince of Peace (Acoustic) </h2>
+				<p> Of Dirt and Grace Hillsong Version </p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/ssnRshuCgbQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Something Beautiful </h2>
+				<p> Needtobreathe Cover </p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/ZkDIEgeXhTs" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Word of God Speak </h2>
+				<p> MercyMe Cover </p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/_Ooa1mZ90VE" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Screen / March to the Sea </h2>
+				<p> twenty one pilots ukulele medley </p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/Oq49IIMbEss" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> O Come All Ye Faithful </h2>
+				<p> Christmas caroling quietly at midnight</p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+		
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/GUB2sWZ_KNw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> You Are My One Thing </h2>
+				<p> Bethel Cover</p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+		<div class = "video"> 
+
+			<iframe width="380" height="300" src="https://www.youtube.com/embed/nZWCqC9SE3E" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+
+
+			<div class = "desc">
+				<h2> Meteor Shower </h2>
+				<p> Owl City Cover </p>
+
+
+				</div> <!-- closes desc -->
+
+		</div> <!-- closes video -->
+
+
+	</div> <!-- closes gallery  -->
+
+
+</div> <!-- closes theRestOfThem -->
+
+
+
+
+
+
+
+
+    </div> 
+
+
+   </div> <!-- closes container -->
+
+
+
+
+    <div class = "guitarbg"> 
+
+   	<!-- <img src="images/gtar.jpg"> -->
+
+
+   <div class="contact"> 
+
+
+   		<div id = "contact-title">
+
+   			<!-- <img src="images/gtar.jpg">  -->
+
+   		<h2>  &nbsp; Contact </h2> 
+
+   		<!-- <div class = "justContact"> -->
+
+   		<form action="/action_page.php"> 
+   			&nbsp; &nbsp; <label for="name"> Name </label> <br> <br>
+   			&nbsp; &nbsp; <input type="text" id="name" name="Name" placeholder="Your Name">
+
+   			<br><br>
+
+   			&nbsp; &nbsp; <label for="email"> Email </label> <br> <br>
+   			&nbsp; &nbsp;<input type="text" id="email" name="email" placeholder="Your Email">
+
+   			<br><br>
+
+   			&nbsp; &nbsp; <label for="subject"> Subject </label> <br> <br>
+   			&nbsp; &nbsp;<input type="text" id="email" name="email" placeholder="Subject">
+
+   			<br><br>
+
+   			&nbsp; &nbsp; <label for="email"> Message </label> <br> <br>
+   			&nbsp; &nbsp;<textarea id="subject" name="subject" placeholder="Write Something..." style="height:50px width:100px"> </textarea>
+
+   			<br><br>
+   			&nbsp; &nbsp;<input type="submit" value="Submit">
+
+   		</form>
+
+
+   </div> <!-- closes contact-title -->
+
+</div> <!-- closes contact -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  <div id = "contactSpace">
+
+   <div class="contactSection">  -->
+
+   	<!-- <img src="images/gtar.jpg"> -->
+
+
+   <!-- <div id="contact"> 
+
+   		<div class = "contactpic" >
+
+   			<div class = "disappear">
+
+   			<img src = "images/contact.jpg">
+ -->
+   	<!-- 	</div>  --><!-- close disappear -->
+
+   		<!-- </div> --> <!-- closes the contact pic div -->
+
+   	<!-- 	<div class = "justContact">
+
+   		<h2>  &nbsp; Contact </h2>  -->
+
+   		<!-- <div class = "justContact"> -->
+
+   		<!-- <form action="/action_page.php"> 
+   			&nbsp; &nbsp; <label for="name"> Name </label> <br> <br>
+   			&nbsp; &nbsp; <input type="text" id="name" name="Name" placeholder="Your Name">
+
+   			<br><br>
+
+   			&nbsp; &nbsp; <label for="email"> Email </label> <br> <br>
+   			&nbsp; &nbsp;<input type="text" id="email" name="email" placeholder="Your Email">
+
+   			<br><br>
+
+   			&nbsp; &nbsp; <label for="subject"> Subject </label> <br> <br>
+   			&nbsp; &nbsp;<input type="text" id="email" name="email" placeholder="Subject">
+
+   			<br><br>
+
+   			&nbsp; &nbsp; <label for="email"> Message </label> <br> <br>
+   			&nbsp; &nbsp;<textarea id="subject" name="subject" placeholder="Write Something..." style="height:50px width:100px"> </textarea>
+
+   			<br><br>
+   			&nbsp; &nbsp;<input type="submit" value="Submit">
+
+   		</form> -->
+
+
+   <!-- </div>  --><!-- closes contact -->
+
+<!-- </div> --> <!-- closes contact Section -->
+
+<!-- </div> --><!--  closes contact Space -->
+
+
+
+
+
+<!-- FOOTER -->
+
+
+
+   <div id="footer">
+
+   	<div class = "footContainer">
+
+	   	<div class = "thankYou" height="50%" >  
+
+	   		<img src = "images/thankyou1.png">
+
+	   	</div> 
+    <!-- <h2> Thank you to listening! Stay tuned for more music! :) 
+   </h2>  -->
+
+   <!-- this is the headphones and piano img for the footer  -->
+
+	   <div class = "piano">
+
+	  	 <img src = "images/pandh.jpg" width="100%" height="850">
+
+	  	</div> 
+
+	  </div> <!-- closes div foot container -->
+
+   </div>
+
+
+
+
+
+
+
+
+
+
+	</body> 
+
+
+
+
+</html>
